@@ -1,0 +1,111 @@
+Attribute Name	Registry Name	Scope	Owner	Type	Description	Default	"Ranges (use ""|"" delim)"	Multiline (boolean)	Hidden (boolean)	Dimension	Max Length (int)	ResetonClone (boolean)	ResetonRevision (boolean)	Icon File	ValueType	CustomerExposition(ReadOnly)	Protection(ReadOnly)
+iPLMHooperState	iPLMHooperState			string				FALSE	FALSE		0	FALSE	FALSE				
+iPLMAftermarketPartNumber	iPLMAftermarketPartNumber			string	Aftermarket Part Number			FALSE	FALSE		256	FALSE	FALSE				
+iPLMAttachmentMethod	iPLMAttachmentMethod			string	"Is there an attachment feature present, if so what form"		 =PUSH OVER A MACHINE THREADED FASTENER | = NO ATTACHMENT | = PUSH OVER AN L SHAPED ROD | = THROUGH HOLE | = OTHER | = PUSH INTO OR SQUARE OR RECTANGLE HOLE | = PUSH INTO ROUND HOLE | = PUSH INTO SPECIAL DESIGN HOLE | = PUSH INTO SQUARE OR RECTANGULAR HOLE | = PUSH OVER A SPECIAL THREADED FASTENER | = PUSH OVER AN UNTHREADED PIN | = PUSH OVER  SLIDE ONTO A SPECIAL DESIGN PART | = SLIDE ONTO A PANEL EDGE | = WELDED | = RIVETTED | = CLINCHED | = CLIPPED | = SPLINED | = PREASSEMBLED	FALSE	FALSE	 	53	FALSE	FALSE				
+iPLMAuthorisationDocumentsURL	iPLMAuthorisationDocumentsURL			string	Authorisation Documents URL			FALSE	FALSE		256	FALSE	FALSE				
+iPLMBandMaterial	iPLMBandMaterial			string				FALSE	FALSE		10	FALSE	FALSE				
+iPLMComments	iPLMComments			string			 	FALSE	FALSE		0	FALSE	FALSE				
+iPLMDensityAsSupplied	iPLMDensityAsSupplied			real	Density As Supplied			FALSE	FALSE		0	FALSE	FALSE				
+iPLMDiameter	iPLMDiameter			real	Geometric value for length or width mm		 	FALSE	FALSE	DSDim_LENGTH	10	FALSE	FALSE				
+iPLMDiameterLeft	iPLMDiameterLeft			real	Geometric value for nominal diameter of a double ended stud - LHS mm		 	FALSE	FALSE	DSDim_LENGTH	10	FALSE	FALSE				
+iPLMDiameterRight	iPLMDiameterRight			real	Geometric value for nominal diameter of a double ended stud - RHS mm		 	FALSE	FALSE	DSDim_LENGTH	10	FALSE	FALSE				
+iPLMEffectiveLengthMin	iPLMEffectiveLengthMin			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMFifthSizeNominal	iPLMFifthSizeNominal			real	Nominal diameter of pipe on a Multiple pipe clip		 	FALSE	FALSE	DSDim_LENGTH	9	FALSE	FALSE				
+iPLMFirstClipRangeMaximum	iPLMFirstClipRangeMaximum			real	Maximum pipe diameter of the largest clipping feature of a multiple pipe clip mm		 	FALSE	FALSE	DSDim_LENGTH	10	FALSE	FALSE				
+iPLMFirstClipRangeMinimum	iPLMFirstClipRangeMinimum			real	Minimum pipe diameter of the largest clipping feature of a multiple pipe clip mm		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMFirstSizeNominal	iPLMFirstSizeNominal			real	Nominal pipe diameter of the largest clipping feature of a multiple pipe clip mm		 	FALSE	FALSE	DSDim_LENGTH	10	FALSE	FALSE				
+iPLMFlagLength	iPLMFlagLength			real	Geometric value for a specific feature on a flag bolt assembly mm		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMFourthSizeNominal	iPLMFourthSizeNominal			real	Nominal diameter of pipe on a Multiple pipe clip		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMFreeOutsideDiameter	iPLMFreeOutsideDiameter			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMGRANTAreference	iPLMGRANTAreference			string				FALSE	FALSE		0	FALSE	FALSE				
+iPLMGrooveDiameter	iPLMGrooveDiameter			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMGrooveWidth	iPLMGrooveWidth			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMHeadDa	iPLMHeadDa			Real	Standard Part Attributes			FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMHeadDiameter	iPLMHeadDiameter			real	Geometric value specific to a head type mm		 	FALSE	FALSE	DSDim_LENGTH	10	FALSE	FALSE				
+iPLMHeadDw	iPLMHeadDw			Real	Standard Part Attributes			FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMHeadHeight	iPLMHeadHeight			real	Geometric measurement of head thickness		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMHeadType	iPLMHeadType			string	Type of head form		 =BI-HEX | = FLANGED BI-HEX | = EXT TORX FLANGE | = FILLISTER | = HEX FLANGE | = HEX COLLAR | = FLAT CSK | = RSD CSK | = HEX | = OVAL TRIM | = PAN | = PAN COLLAR | = SHEAR HEAD | = SPECIAL | = SOCKET | = SQUARE | = TRUSS | = WAFER | = ROUND | = BUTTON | = COUNTERSUNK | = DOMED | = FLAT | = OVAL HEAD | = CAP | = ROUND WASHER | = HEX FLANGE CONVEX	FALSE	FALSE		22	FALSE	FALSE				
+iPLMHeight	iPLMHeight			real	Geometric value for thickness mm		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMHeightAbovePanel	iPLMHeightAbovePanel			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMHoleCenterLineToPanelEdge	iPLMHoleCenterLineToPanelEdge			Real	Geometric value for a panel dimension known as throat depth		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMInsideDiameter	iPLMInsideDiameter			real	"Maximum bundle of wire, cables or pipes held by the clip"		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMiPointReference	iPLMiPointReference			string				FALSE	FALSE		0	FALSE	FALSE				
+iPLMJLRSupplierReferenceGSDBCode	iPLMJLRSupplierReferenceGSDBCode			string	JLR Supplier Reference GSDB Code			FALSE	FALSE		256	FALSE	FALSE				
+iPLMKnurlDiameter	iPLMKnurlDiameter			Real	Geometric value for dimension across a knurled feature		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMLength	iPLMLength			real	Geometric value for Length mm		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMLengthLeft	iPLMLengthLeft			real	Geometric value for thread Length of a double ended stud - LHS mm		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMLengthRight	iPLMLengthRight			real	Geometric value for thread Length of a double ended stud - RHS mm		 	FALSE	FALSE	DSDim_LENGTH	10	FALSE	FALSE				
+iPLMLockingFeature	iPLMLockingFeature			string				FALSE	FALSE		0	FALSE	FALSE				
+iPLMLubrication	iPLMLubrication			string			 =ALL OVER | = TIP LUBRICANT | = NONE	FALSE	FALSE		0	FALSE	FALSE				
+iPLMMandrelMaterial	iPLMMandrelMaterial			string	Rivet mandrel material of rivet assembly		 = ALUMINUM | = PLASTIC | = STAINLESS STEEL | = STEEL | = -	FALSE	FALSE		20	FALSE	FALSE				
+iPLMMaximumDiameter	iPLMMaximumDiameter			real	Geometric value for maximum diameter of hose held		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMMaxPanelThickness	iPLMMaxPanelThickness			real	Defines the Max panel thickness suitability		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMMaxRange	iPLMMaxRange			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMMinimumDiameter	iPLMMinimumDiameter			real	Geometric value for minimum diameter of hose held		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMMinPanelThickness	iPLMMinPanelThickness			real	Defines the Min panel thickness suitability		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMMinRange	iPLMMinRange			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMMountingHoleDiameter	iPLMMountingHoleDiameter			Real	Geometric value for panel hole diameter		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMMountingHoleDiameterLength	iPLMMountingHoleDiameterLength			string	Mounting Hole Diameter Length			FALSE	FALSE		0	FALSE	FALSE				
+iPLMMountingHoleForm	iPLMMountingHoleForm			string				FALSE	FALSE		0	FALSE	FALSE				
+iPLMMountingHoleWidth	iPLMMountingHoleWidth			real	Geometric value for panel hole size if non round		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMNominalDiameter	iPLMNominalDiameter			Real	Gemetric value for diameter		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMNumberOfPipesOrCables	iPLMNumberOfPipesOrCables			integer			 	FALSE	FALSE		0	FALSE	FALSE				
+iPLMOktoUseIndicator	iPLMOktoUseIndicator			boolean	Ok to Use Indicator			FALSE	FALSE		0	FALSE	FALSE				
+iPLMOutsideDiameter	iPLMOutsideDiameter			real	Geometric value for Diameter mm		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMPaintClearing	iPLMPaintClearing			string			=  | = YES | = No	FALSE	FALSE		0	FALSE	FALSE				
+iPLMPanelRetMethod	iPLMPanelRetMethod			string				FALSE	FALSE		0	FALSE	FALSE				
+iPLMPanelThicknessA	iPLMPanelThicknessA			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMPanelThicknessB	iPLMPanelThicknessB			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMPitchLeft	iPLMPitchLeft			real	"Thread pitch, double ended stud LHS"		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMPitchRight	iPLMPitchRight			real	"Thread pitch, double ended stud RHS"		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMPointDiameter	iPLMPointDiameter			real	Geometric value for diameter of a dog point feature mm		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMPointForm	iPLMPointForm			string	Form of point feature		 = HEX LOBE | = PLAIN | = PILOT SPECIAL | = PAINT CLEARING | = NP | = MAT | = DRILL | = DOG POINT | = CUTTING | = CTP | = CONE | = CNP | = C/SHARP ST | = F/BLUNT ST | = CA | = PILOT| = HEADER/AS ROLLED| = SPECIAL| = SPHERICAL| = HEX| = R TYPE | = R/ROUND ST	FALSE	FALSE		21	FALSE	FALSE				
+iPLMPointFormLeft	iPLMPointFormLeft			string			= SPECIAL | = PLAIN | = PILOT | = HEADER/AS ROLLED | = F/BLUNT ST | = CNP | = C/SHARP ST | = CA | = CONE | = CTP | = NP	FALSE	FALSE		21	FALSE	FALSE				
+iPLMPointFormRight	iPLMPointFormRight			string			= SPECIAL | = PLAIN | = PILOT | = NP | = HEADER/AS ROLLED | = F/BLUNT ST | = CTP | = CONE | = CNP | = C/SHARP ST | = CA	FALSE	FALSE		21	FALSE	FALSE				
+iPLMPointLength	iPLMPointLength			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMPointLengthLeft	iPLMPointLengthLeft			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMPointLengthRight	iPLMPointLengthRight			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMPreopened	iPLMPreopened			string	Clip supplied in pre-opened condition - Yes/No		 = No | = Yes | != ~ Add Manually ~	FALSE	FALSE		9	FALSE	FALSE				
+iPLMProductSubType	iPLMProductSubType			string				FALSE	FALSE		50	FALSE	FALSE				
+iPLMProductType	iPLMProductType			string				FALSE	FALSE		53	FALSE	FALSE				
+iPLMPropertyClass	iPLMPropertyClass			string	Stengrh grade rating		= TH | = 9.8 | = THROUGH HARDENED | = 010 | = 10N | = 8N | = CASED | = SS | = 12.9 | = 10.9 | = 8.8 | = 5.8 | = 4.8 | = 12 | = 10 | = 8 | = 6 | = 4 | = 05 | = 11.9 | = 04 | = 5 | = 9	FALSE	FALSE		33	FALSE	FALSE				
+iPLMRivetHardness	iPLMRivetHardness			string	Material hardness value		= 280Hv | = 410Hv | = 480Hv | = 525Hv | = 555Hv |= 420Hv	FALSE	FALSE		0	FALSE	FALSE				
+iPLMSafetyDataSheetURL	iPLMSafetyDataSheetURL			string				FALSE	FALSE		0	FALSE	FALSE				
+iPLMScrewMaterial	iPLMScrewMaterial			string	"Material of screw, part of an assembly"		 = STAINLESS STEEL | = CARBON STEEL | = STEEL	FALSE	FALSE	 	15	FALSE	FALSE				
+iPLMSeal	iPLMSeal			string	Is a watertight seal present		= NO | = YES | = NONE | = MASTIC | = INHERENT | = GASKET | = FOAM | = RUBBER	FALSE	FALSE		13	FALSE	FALSE				
+iPLMSecondSizeNominal	iPLMSecondSizeNominal			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMSerrated	iPLMSerrated			string	Does item have a serrated locking or retention system		= NO | = YES	FALSE	FALSE		33	FALSE	FALSE				
+iPLMShankOrShoulderLength	iPLMShankOrShoulderLength			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMStandardReference	iPLMStandardReference			string	Standard spec sheet reference number			FALSE	FALSE		0	FALSE	FALSE				
+iPLMSTJLRStandardReference	iPLMSTJLRStandardReference			string	iPLM STJLR Standard Reference			FALSE	FALSE		256	FALSE	FALSE				
+iPLMStrapLength	iPLMStrapLength			real	Overell length of cable tie strap		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMStudOverallLength	iPLMStudOverallLength			real	Geometric length of stud overall end to end		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMSupplierName	iPLMSupplierName			string	Attribute for Tooling Library Parts		 	FALSE	FALSE		128	FALSE	FALSE				
+iPLMSupplierProductCode	iPLMSupplierProductCode			string	Supplier Product Code			FALSE	FALSE		256	FALSE	FALSE				
+iPLMSupplierProductName	iPLMSupplierProductName			string	Supplier Product Name			FALSE	FALSE		256	FALSE	FALSE				
+iPLMTechnicalDataSheetURL	iPLMTechnicalDataSheetURL			string	Technical Data SheetURL			FALSE	FALSE		256	FALSE	FALSE				
+iPLMThirdSizeNominal	iPLMThirdSizeNominal			real	Nominal pipe diameter of the 2nd clipping feature of a multiple pipe clip mm		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMThreadFeature	iPLMThreadFeature			string	Male thread feature eg plastic patch, free running etc		= SELF SEALING | = ADHESIVE PATCH | = PLASTIC PATCH | = SELF SEALING PATCH | = SELF LOCKING PATCH | = PREVAILING TORQUE PLASTIC RING | = PREVAILING TORQUE PLASTIC | = PREVAILING TORQUE PATCH | = PREVAILING TORQUE METAL | = PAINT CLEARING | = FREE RUNNING | = TWIN LEAD METAL| = ALTRACS| = TAPTITE 2000| = TAPTITE 2| = TAPTITE| = THREAD ROLLING OTHER| = SPECIAL| = PLASTIC THREADFORMING| = MAGNESIUM| = SHEETRACS| = HI LO| = SELF LOCKING METAL| = THREAD ROLLING  |= UNTHREADED | = Free Running | = Prevailing Torque Metal	FALSE	FALSE		35	FALSE	FALSE				
+iPLMThreadFeatureLeft	iPLMThreadFeatureLeft			string	"Male thread feature stud LHS eg plastic patch, free running etc"		 = ALTRACS | =  TAPTITE 2 | =  THREAD ROLLING OTHER | =  PLASTIC THREADFORMING | =  MAGNESIUM | =  SHEETRACS | = PAINT CLEARING | = SPECIAL | = UNTHREADED | = HI LO | = SELF LOCKING METAL | = TAPTITE | = TAPTITE 2000 | = THREAD ROLLING | =  FREE RUNNING | = PAINT CLEARING| = PREVAILING TORQUE METAL| = ADHESIVE PATCH| = PREVAILING TORQUE PLASTIC| = PREVAILING TORQUE PLASTIC RING| = SELF LOCKING PATCH| = SELF SEALING PATCH	FALSE	FALSE		28	FALSE	FALSE				
+iPLMThreadFeatureRight	iPLMThreadFeatureRight			string	"Male thread feature stud RHS eg plastic patch, free running etc"		 = SELF SEALING | = ADHESIVE PATCH | = PLASTIC PATCH | = SELF SEALING PATCH | = SELF LOCKING PATCH | = PREVAILING TORQUE PLASTIC RING | = PREVAILING TORQUE PLASTIC | = PREVAILING TORQUE PATCH | = PREVAILING TORQUE METAL | = PAINT CLEARING | = FREE RUNNING | = TWIN LEAD METAL| = ALTRACS| = TAPTITE 2000| = TAPTITE 2| = TAPTITE| = THREAD ROLLING OTHER| = SPECIAL| = PLASTIC THREADFORMING| = MAGNESIUM| = SHEETRACS| = HI LO| = SELF LOCKING METAL| = THREAD ROLLING| = UNTHREADED	FALSE	FALSE		28	FALSE	FALSE				
+iPLMThreadLengthLeft	iPLMThreadLengthLeft			string	Geometric value for thread Length of a double ended stud - LHS mm		 	FALSE	FALSE		0	FALSE	FALSE				
+iPLMThreadLengthRight	iPLMThreadLengthRight			string	Geometric value for thread Length of a double ended stud - RHS mm		 	FALSE	FALSE		0	FALSE	FALSE				
+iPLMThreadPitch	iPLMThreadPitch			real	Thread pitch		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMThreadSize	iPLMThreadSize			string	Details of thread size eg Metric diameter and pitch		= 8| = 16| = 24| = 3.5X1.3| = 3.5X1.57| = 4.2X1.4| = 4.5X1.63| = 4.5X2| = 4.8X1.6| = 4X1.46| = 4X1.79| = 5.2X0.8| = 5.9X3.18| = 5X1.23| = 5X1.42| = 5X1.6| = 5X1.8 | = 5X1.96| = 5X2.12| = 5X2.24 | = 5X2.25| = 6.3X1.8| = 6.5X1| = 6X1.42| = 6X1.6| = 6X2.14| = 6X2.69| = 7X2.48| = 8X1.79| = 8X2.82| = M10LHX1.5| = M10X1| = M10X1.25| = M10X1.5 | = M12X1| = M12X1.25| = M12X1.5| = M12X1.75 | = M13X1.75| = M13X2| = 14X1.5| = M14X2| = M15X1.5| = M16X1| = M16X1.5| = M16X2| = M17X2| = M18X1.5 | = M20X1.5| = M20X2.5| = M24X1.5| = M24X2| = M3X0.5| = M4X0.7| = M5X0.8 | = M6X1 | = M6X2| = M7X1| = M8X1| = M8X1.25 | = T5X1.6| = T6X1.6| = 1/2X14 | = 3.5X1.3| = 3/8-16| = 3X1.12| = M22X1.5| = M3X0.5| = T5X1.6| = M14X1.5| = M14X1| = M20X2| = M22X2| = M22X2.5| = M30X1.5| = M30X2| = M30X3| = M30X3.5 |= Free Running |= 3X1.1 |= M4.8X1.59 |= 6X2.7 |= M14X2.0 |= M8 | = M8x1.25	FALSE	FALSE		20	FALSE	FALSE				
+iPLMThreadSizeLeft	iPLMThreadSizeLeft			string	Thread size of LH stud thread		 	FALSE	FALSE		16	FALSE	FALSE				
+iPLMThreadSizeRight	iPLMThreadSizeRight			string	Thread size of RH stud thread		 	FALSE	FALSE		17	FALSE	FALSE				
+iPLMThreadType	iPLMThreadType			string	Thread form type eg metric diameter and pitch		 = MACHINE PITCH THREAD CUTTING | = DOUBLE ENDED | = MACHINE PITCH TAPPING | = UNTHREADED | = SHEET METAL TAPPING | = PLASTIC TAPPING | = OTHER/SPECIAL | = MACHINE | = MACHINE THREAD | = PIPE THREAD	FALSE	FALSE		33	FALSE	FALSE				
+iPLMTotalThreadLength	iPLMTotalThreadLength			Real	Length of threaded section only		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMWasherDa	iPLMWasherDa			Real	Standard Part Attributes			FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMWasherDw	iPLMWasherDw			Real	Standard Part Attributes			FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMWasherMaterial	iPLMWasherMaterial			string	Material of captive washer		= ALUMINUM | = HARDENED STEEL | = NYLON | = PLASTIC | = RUBBER | = STAINLESS STEEL | = STEEL | = BRASS | = COPPER | = STEEL/RBR 	FALSE	FALSE		20	FALSE	FALSE				
+iPLMWasherThickness	iPLMWasherThickness			real	"Geometric thickness of captive washer, nominal mm"		 	FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMWasherType	iPLMWasherType			string	"shape, function or form of washer eg flat, spring etc"		= CONICAL | = FLAT | = HELICAL | = ECCENTRIC | = SPECIAL | = TOOTHED | = CURVED	FALSE	FALSE		12	FALSE	FALSE				
+iPLMWidth	iPLMWidth			real	Geometric value for width mm		 	FALSE	FALSE	DSDim_LENGTH	10	FALSE	FALSE				
+iPLMCommodityBase	iPLMCommodityBase			string	Commodity Base based on WERS logic. May differ from MPNR value for same			FALSE	FALSE		11	FALSE	FALSE				
+iPLMSTDPColour	iPLMSTDPColour			string	Attribute for Tooling Library Parts			FALSE	FALSE		128	FALSE	FALSE				
+iPLMSTDPDriveSize	iPLMSTDPDriveSize			string	Form of drive feature			FALSE	FALSE		10	FALSE	FALSE				
+iPLMSTDPDriveType	iPLMSTDPDriveType			string	Attribute for Tooling Library Parts		=EXTERNAL HEXAGON | = TAMPERPROOF | = INTERNAL HEXAGON | = SLOT | = 12 POINT EXTERNAL | = 6 LOBED EXTERNAL | = 6 LOBED INTERNAL | = CROSS RECESSED PHILLIPS | = CROSS RECESSED TYPE Z | = ROUND EXTERNAL | = SHOULDER | = SQUARE DRIVE EXTERNAL | = SPECIAL | = BI-HEX | = X-RECESS | = SQUARE | = OCT	FALSE	FALSE		128	FALSE	FALSE				
+iPLMSTDPOverallLength	iPLMSTDPOverallLength			real				FALSE	FALSE	DSDim_LENGTH	0	FALSE	FALSE				
+iPLMSTDPSpecialFeature	iPLMSTDPSpecialFeature			string	Attribute for Tooling Library Parts			FALSE	FALSE		128	FALSE	FALSE				
+iPLMSTDPManufacturer	iPLMSTDPManufacturer			string				FALSE	FALSE		0	FALSE	FALSE				

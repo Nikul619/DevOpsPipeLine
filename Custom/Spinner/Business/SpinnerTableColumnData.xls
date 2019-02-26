@@ -1,0 +1,6 @@
+Table Name	Column Name	Column Label	Col Description	"Expression Type (bus or """" / rel)"	Expression	Href	"Setting Names (use ""|"" delim)"	"Setting Values (use ""|"" delim)"	"Users (use ""|"" delim)"	Alt	Range	Update	"SortType (alpha / numeric / other / none or """")"	Column Order	Hidden
+iPLMFeatureOptionsListTable	Name	emxFramework.Common.Feature		businessobject	name		Registered Suite	Framework					none	1	FALSE
+iPLMFeatureOptionsListTable	State	emxFramework.Common.Action					Registered Suite | Column Type | function | program	Framework | program | getStates | iPLMOk2UseListImportExcel					none	2	FALSE
+iPLMFeatureOptionsListTable	Description	emxFramework.Common.Description		businessobject	description		Registered Suite	Framework					none	3	FALSE
+iPLMFeatureOptionsListTable	FeatureFamily	emxFramework.Common.FeatureFamily		businessobject	to[Configuration Options].from.name		Registered Suite	Framework					none	4	FALSE
+iPLMFeatureOptionsListTable	FamilyDescription	emxFramework.Common.Description		businessobject	to[Configuration Options].from.description		Registered Suite	Framework					none	5	FALSE

@@ -1,0 +1,7 @@
+Schema Type	Schema Name	State (for Policy)	Trigger Event	Trigger Type (check / override / action)	Program	Input
+type	PLMReference		copy	action	emxTriggerManager	3DX_TypePLMEntityCopyAction iPLMTypePLMEntityCopyAction
+type	PLMReference		create	action	emxTriggerManager	3DX_TypePLMEntityCreateAction iPLMTypePLMEntityCreateAction
+type	PLMReference		majorrevision	action	emxTriggerManager	3DX_TypePLMEntityMajorRevisionAction iPLMTypePLMEntityMajorRevisionAction
+type	PLMReference		revision	action	emxTriggerManager	3DX_TypePLMEntityRevisionAction iPLMTypePLMEntityRevisionAction
+relationship	PLMInstance		create	action	emxTriggerManager	3DX_TypePLMInstanceCreateAction iPLMTypePLMInstanceCreateAction
+relationship	LPAbstractInstance		create	action	emxTriggerManager	RelationLPAbstractInstanceCreateAction 3DX_TypePLMInstanceCreateAction iPLMTypePLMInstanceCreateAction

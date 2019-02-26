@@ -1,0 +1,136 @@
+#WIP
+iPLMIeWip=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMFacilityWip=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMProcessWip=Yes|Not Yet Verified|No and not covered by an approved PACN
+
+# Quality Standard
+iPLMRectificationProcess=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMFunctionalTesting=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMProcessConfirmation=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMPersonalProtectEquipment=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+
+#Securing
+iPLMCompSecuringForce=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMCompSecuringPosture=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMSecuringDirection=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMToolTypesPerProcess=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMSocketPerProcess=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMHandStart=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMCompInsertionToolClearance=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+
+#Insertion And Handling 
+iPLMAlignment=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMRetention=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMMotionDirectionInsertion=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMCompHandelingDuringInsertion=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMCompVehicleAperatureClearance=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMCompInsertionPathClearance=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMOperatorClearance=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMAdjustment=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMAccessibility=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMCompProtection=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMVehicleProtection=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMVisibility=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+
+#Presentation, Selection And Preparation
+iPLMPalletLocation=Yes|Not Yet Verified|No and not covered by an approved PACN
+iPLMPalletType=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMPartPackaging=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMCompPickUp=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMCompPickUpPosture=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMFixingSelectionMethodErrorProof=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMCompSelectionMethodErrorProof=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMPrepCompPriorToFitment=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+iPLMPrepVehiclePriorToFitment=Yes|Not Yet Verified|No and not covered by an approved PACN|No but covered by an approved PACN
+
+#Component And Fastener  Data
+iPLMCompVariants=1|2|3|4 or More
+iPLMCompCharCriticality=None|Significant(YS)|Critical(YC)
+iPLMCompVariantIdentification=Yes|No
+iPLMCompPokaYoke=Yes|No
+iPLMOptionFit=Yes|No
+iPLMBridgeBracketryStarpsOrSeparateGasket=Yes|No
+iPLMFastenerStatergy=None|Push fit No lock|Push fit With Lock|Clipped|Mechanical|Bonded backing tape|Bonded PU
+iPLMFastenerPerComp=1|2|3|4 or More
+iPLMFastenerPerTypePerComp=1|2|3|4|5|6 or More
+iPLMFixingTorqueVariants=None|1|2|3 or More
+iPLMFixingCharCriticalityRating=None|Significant(YS)|Critical(YC)
+iPLMPipeHoseConnecStrategy=None|Quick Fit|Grenade Clip|Worm Drive|Jubilee|Banjo|Tube nut
+iPLMPipeHoseConnecPerComp=None|1|2|3 or More
+iPLMPipeHoseConnectorPerComp=None|1|2|3 or More
+iPLMConnecStrategyElec=None|Plug|Plug and Play|Anti back out with keyway|Anti scoop with keyway|No keway
+iPLMElecConnecPerComp=1|2|3|4|5|6 or More
+iPLMElecConnecTypesPerComp=None|1|2|3|4 or More
+iPLMCompCommonalityOtherModels=Yes|No
+iPLMProcessCommOtherVariantsModels=Yes|No
+iPLMFlexBuildSequence=Yes|No
+iPLMFlexFastenerSecurSequence=Yes|No
+
+#Event
+iPLMEvent=UNVO|UNV1|UNV1+UPV0|UNV2+UPV0
+
+#PRE-AIMS
+iPLMIssueCategory=DFA|CAD Compatibility - Feasibility Issue|CAD Compatibility - No Feasibility Issue|Missing CAD|Request Information|Other
+
+#Score Attributes  
+iPLMProcessWipScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMFacilityWipScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMIeWipScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+
+iPLMCompVariantsScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompCharCriticalityScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompVariantIdentificationScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompPokaYokeScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMOptionFitScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMBridgeBracketryStarpsOrSeparateGasketScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMFastenerStatergyScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMFastenerPerCompScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMFastenerPerTypePerCompScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMFixingTorqueVariantsScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMFixingCharCriticalityRatingScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMPipeHoseConnecStrategyScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMPipeHoseConnecPerCompScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMPipeHoseConnectorPerCompScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMConnecStrategyElecScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMElecConnecPerCompScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMElecConnecTypesPerCompScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompCommonalityOtherModelsScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMProcessCommOtherVariantsModelsScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMFlexBuildSequenceScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMFlexFastenerSecurSequenceScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+
+iPLMPalletLocationScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMPalletTypeScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMPartPackagingScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompPickUpScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompPickUpPostureScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMFixingSelectionMethodErrorProofScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompSelectionMethodErrorProofScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMPrepCompPriorToFitmentScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMPrepVehiclePriorToFitmentScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+
+iPLMAlignmentScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMRetentionScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMVisibilityScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMMotionDirectionInsertionScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompHandelingDuringInsertionScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompVehicleAperatureClearanceScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompInsertionPathClearanceScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMOperatorClearanceScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMAdjustmentScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMAccessibilityScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompProtectionScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMVehicleProtectionScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+
+iPLMCompInsertionToolClearanceScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMHandStartScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMSocketPerProcessScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMToolTypesPerProcessScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMSecuringDirectionScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompSecuringPostureScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMCompSecuringForceScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+
+iPLMPersonalProtectEquipmentScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMProcessConfirmationScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMFunctionalTestingScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable
+iPLMRectificationProcessScore=Red|Not Verified|Green|ROS|Carry over|Not Applicable

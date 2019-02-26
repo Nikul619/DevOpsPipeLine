@@ -1,0 +1,20 @@
+Page Name	Registry Name	Description	Mime Type	Hidden (boolean)	Icon File
+iPLMFolderList				FALSE	
+iPLMJVInfo				FALSE	
+iPLMWorkspaceDetails				FALSE	
+emxConfiguration.properties				FALSE	
+emxConfigurationStringResource_en.properties				FALSE	
+emxConfigurationStringResource.properties				FALSE	
+emxFrameworkStringResource_en.properties				FALSE	
+emxFrameworkStringResource.properties				FALSE	
+emxSystem.properties				FALSE	
+emxLibraryCentral.properties				FALSE	
+emxEnterpriseChangeMgtStringResource_en.properties				FALSE	
+emxEnterpriseChangeMgtStringResource.properties				FALSE	
+iPLMPReleaseConfigurations				FALSE	
+iPLMOk2ulistHPInfo				FALSE	
+iPLMFastenerJointInformation				FALSE	
+iPLMStandardPart				FALSE	
+iPLMHCScoringDocumentAttributes	iPLMHCScoringDocumentAttributes			FALSE	
+PromotionChecks_iPLMManufCADExtension_extension_revoke.properties	PromotionChecks_iPLMManufCADExtension_extension_revoke.properties			FALSE	
+iPLMEDSStandardPart	iPLMEDSStandardPart			FALSE	
