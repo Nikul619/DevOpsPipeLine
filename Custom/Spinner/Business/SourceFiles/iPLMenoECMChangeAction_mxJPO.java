@@ -23,7 +23,7 @@ import com.dassault_systemes.enovia.changeaction.interfaces.IChangeAction;
 import com.dassault_systemes.enovia.changeaction.interfaces.IRealizedChange;
 import com.dassault_systemes.enovia.changeaction.interfaces.IProposedActivity;
 
-//Added comment
+
 public class iPLMenoECMChangeAction_mxJPO extends emxDomainObject_mxJPO  {
 
 	 public iPLMenoECMChangeAction_mxJPO (Context context, String[] args) throws Exception
