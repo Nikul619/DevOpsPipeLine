@@ -42,6 +42,7 @@ import com.matrixone.apps.domain.util.PropertyUtil;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 
+//Comment to trigger automatic build in Jenkins
 public class iPLMStandardPartLoad_mxJPO  extends emxDomainObject_mxJPO  {
 
 	 public iPLMStandardPartLoad_mxJPO (Context context, String[] args) throws Exception
