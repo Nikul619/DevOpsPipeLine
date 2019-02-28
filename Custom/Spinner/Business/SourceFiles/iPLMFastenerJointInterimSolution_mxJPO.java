@@ -43,7 +43,6 @@ import com.matrixone.apps.domain.util.PropertyUtil;
 import com.matrixone.apps.framework.ui.UIUtil;
 
 
-//Just for testing
 public class ${CLASSNAME}
 //public class iPLMFastenerJointInterimSolution_mxJPO
 {
