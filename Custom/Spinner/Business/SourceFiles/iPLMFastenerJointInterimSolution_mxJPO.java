@@ -111,6 +111,8 @@ public class ${CLASSNAME}
 	{
 		MapList mlResult = new MapList();
 		
+		String strUnUsaedVariable = null;
+		
 		String strMQLCommand = null;
 		String strMQLResult = null;		
 		String strInstanceTitle = null;
